@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.dongdong.animal.termite">
+
+    <application>
+        <service android:name=".TermiteAidlService">
+            <intent-filter>
+                <action android:name="android.intent.action.aidl.termite.service"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
